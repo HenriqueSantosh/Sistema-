@@ -1,0 +1,13 @@
+C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Domain\bin\Debug\netcoreapp3.1\API.Sistema.Domain.deps.json
+C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Domain\bin\Debug\netcoreapp3.1\API.Sistema.Domain.dll
+C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Domain\bin\Debug\netcoreapp3.1\API.Sistema.Domain.pdb
+C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Domain\obj\Debug\netcoreapp3.1\API.Sistema.Domain.csproj.AssemblyReference.cache
+C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Domain\obj\Debug\netcoreapp3.1\API.Sistema.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Domain\obj\Debug\netcoreapp3.1\API.Sistema.Domain.AssemblyInfoInputs.cache
+C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Domain\obj\Debug\netcoreapp3.1\API.Sistema.Domain.AssemblyInfo.cs
+C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Domain\obj\Debug\netcoreapp3.1\API.Sistema.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Domain\obj\Debug\netcoreapp3.1\API.Sistema.Domain.dll
+C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Domain\obj\Debug\netcoreapp3.1\API.Sistema.Domain.pdb
+C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Domain\bin\Debug\netcoreapp3.1\API.Sistema.Domain.Core.dll
+C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Domain\bin\Debug\netcoreapp3.1\API.Sistema.Domain.Core.pdb
+C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Domain\obj\Debug\netcoreapp3.1\API.Sistema.Domain.csproj.CopyComplete

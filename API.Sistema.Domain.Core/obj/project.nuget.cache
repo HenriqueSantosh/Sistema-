@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qUzfVNaYpjn+YbehDDnHNOagaE+gHUU3vhAxI75Bxc+b5HW80/s47ZUe+8XM7FEdR0i3JP+cT+AdxNg59ml5Lw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Domain.Core\\API.Sistema.Domain.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Henrique\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\Henrique\\.nuget\\packages\\mediatr\\6.0.0\\mediatr.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

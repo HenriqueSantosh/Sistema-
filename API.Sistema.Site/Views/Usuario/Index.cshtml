@@ -1,0 +1,82 @@
+﻿@model IEnumerable<Usuario>
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Lista de Usúarios";
+}
+
+<div class="text-center">
+    <h4 class="display-4">Lista de Usúarios</h4>
+</div>
+
+<div class="container">
+<a asp-action="AddUsuario" class="btn btn-lg btn-primary">Novo Usuario</a>
+
+<table class="table table-sm table-striped table-bordered m-2">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>CPF</th>
+            <th>RG</th>
+            <th>Orgão Expedição</th>
+            <th>UF</th>
+            <th>Visualizar</th>
+            <th>Alterar</th>
+            <th>Deletar</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Nome</td>
+                <td>@user.CPF</td>
+                <td>@user.RG</td>
+                <td>@user.OrGaoExpedicao</td>
+                <td>@user.UF</td>
+                <td>
+                    <a asp-action="GetUsuarioById" asp-route-id="@user.Id">
+                        <span><i class="bi bi-search"></i></span>
+                    </a>
+                </td>
+                <td>
+                    <a asp-action="UpdateUsuario" asp-route-id="@user.Id">
+                        <span class="text-center"><i class="bi bi-pen-fill"></i></span>
+                    </a>
+                </td>
+                    <td>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exclusaoModal-@user.Id.ToString().Replace("-","")">
+                            <span class="text-center"><i class="bi bi-trash"></i></span>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exclusaoModal-@user.Id.ToString().Replace("-","")" tabindex="-1" aria-labelledby="exclusaoModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exclusaoModalLabel">Exclusão</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Deseja excluir o Usuario <strong>@user.Nome</strong> ?
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
+                                        <a asp-action="DeleteUser" class="btn btn-danger" asp-route-id="@user.Id">Sim</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/Home" class="btn btn-sm btn-outline-warning">Voltar</a>
+</div>
+
+
+

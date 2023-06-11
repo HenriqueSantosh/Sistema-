@@ -1,0 +1,114 @@
+﻿@model Usuario
+@{Layout = "_Layout"; ViewBag.Title = "Visualizar Usuario";}
+
+@if (!string.IsNullOrEmpty(Model?.CPF))
+{
+     <h2 style="color:blue">Cliente</h2>
+     <form>
+        <div class="container">
+            <div class="form-row">
+                 <div class="form-group col-md-2">
+                        <label class="form-label"><strong>CPF:</strong></label>
+                    <input type="text" formaction="999.999.999-99" class="form-control" disabled value="@Model.CPF" id="cpf">
+                 </div>
+                 <div class="form-group col-md-10">
+                        <label class="form-label"><strong>Nome:</strong></label>
+                        <input type="text" class="form-control" value="@Model.Nome" disabled>
+                 </div>
+            </div>
+            <div class="form-row">
+                    <div class="form-group col-md-2">
+                        <label class="form-label"><strong>RG:</strong></label>
+                        <input type="text" class="form-control" value="@Model.RG" id="rg" disabled>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label class="form-label"><strong>Data Expedição:</strong></label>
+                        <input type="text" class="form-control" value="@Model.DataExpedicao.ToString("dd/MM/yyyy")" disabled>
+                    </div>
+                    <div class="form-group col-md-7">
+                        <label class="form-label"><strong>Orgao Espedição:</strong></label>
+                        <input type="text" class="form-control" value="@Model.OrGaoExpedicao" disabled>
+                    </div>
+                    <div class="form-group col-md-1">
+                        <label class="form-label"><strong>UF:</strong></label>
+                        <input type="text" class="form-control" value="@Model.UF" disabled>
+                    </div>
+             </div>
+                <div class="form-row">
+                    <div class="form-group col-md-2">
+                        <label class="form-label"><strong>Data de Nascimento:</strong></label>
+                        <input type="text" class="form-control" value="@Model.DataNascimento.ToString("dd/MM/yyyy")" disabled>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label class="form-label"><strong>Sexo:</strong></label>
+                        <input type="text" class="form-control" value="@Model.Sexo" disabled>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label class="form-label"><strong>Estado Civil:</strong></label>
+                        <input type="text" class="form-control" value="@Model.EstadoCivil" disabled>
+                    </div>
+                </div>
+        </div>
+        <br />
+        <h2 style="color:blue">Endereço</h2>
+        <br />
+        <div class="container">
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label class="form-label"><strong>CEP:</strong></label>
+                    <input type="text" class="form-control" value="@Model.Endereco.Cep" disabled id="cep">
+                </div>
+                <div class="form-group col-md-6">
+                    <label class="form-label"><strong>Rua:</strong></label>
+                    <input type="text" class="form-control" value="@Model.Endereco.Logradouro" disabled>
+                </div>
+                <div class="form-group col-md-2">
+                    <label class="form-label"><strong>Numero:</strong></label>
+                    <input type="text" class="form-control" value="@Model.Endereco.Numero" disabled>
+                </div>
+                <div class="form-group col-md-2">
+                    <label class="form-label"><strong>Complemento:</strong></label>
+                    <input type="text" class="form-control" value="@Model.Endereco.Complemento" disabled>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-5">
+                    <label class="form-label"><strong>Bairro:</strong></label>
+                    <input type="text" class="form-control" value="@Model.Endereco.Bairro" disabled>
+                </div>
+                <div class="form-group col-md-6">
+                    <label class="form-label"><strong>Cidade:</strong></label>
+                    <input type="text" class="form-control" value="@Model.Endereco.Cidade" disabled>
+                </div>
+                <div class="form-group col-md-1">
+                    <label class="form-label"><strong>UF:</strong></label>
+                    <input type="text" class="form-control" value="@Model.Endereco.UF" disabled>
+                </div>
+            </div>
+        </div>
+    </form>
+    <br />
+}
+else
+{
+   <div>
+       <h1>Usúario não encontrado</h1>
+   </div>
+}
+
+<a asp-action="Index" class="btn btn-primary">Voltar</a>
+@section Scripts {   
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" ></script>
+    <script src="https://rawgit.com/RobinHerbots/Inputmask/5.x/dist/jquery.inputmask.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#cpf").inputmask("mask", { "mask": "999.999.999-99" }, { reverse: true });
+            $("#cep").inputmask("mask", { "mask": "99999-999" });
+            $("#rg").inputmask("mask", { "mask": "99.999.999-9" });
+
+
+        });
+    </script>
+}
+

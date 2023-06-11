@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Berqa4CryYFfYAzu3U3KyKe+lFfMnPo+WN+Fwm7q0DcINWHX8OgsNcw91Idx3bxGcfvdOT8Jb+g+D3lhu0DkJw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Infra.CrossCutting.Bus\\API.Sistema.Infra.CrossCutting.Bus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Henrique\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\Henrique\\.nuget\\packages\\mediatr\\6.0.0\\mediatr.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

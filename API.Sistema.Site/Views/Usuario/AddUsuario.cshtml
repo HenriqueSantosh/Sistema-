@@ -1,0 +1,134 @@
+﻿@model Usuario
+@{
+    Layout = "_Layout"; ViewBag.Title = "Adicionar Usuario";
+}
+<div><h2 class="text-danger align-text-top">@TempData["Error"]?.ToString()</h2></div>
+
+    <h2 style="color:blue">Cliente</h2>
+    <form method="post" action="AddUsuario">
+    <div asp-validation-summary="ModelOnly" class="text-danger"/>
+
+        <div class="container">
+                       <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label asp-for="CPF" class="form-label"><strong>CPF:</strong></label>
+                    <input asp-for="CPF" type="text" class="form-control" id="cpf">
+                <span asp-validation-for="CPF" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-10">
+                    <label asp-for="Nome" class="form-label"><strong>Nome:</strong></label>
+                <input asp-for="Nome" type="text" class="form-control">
+                <span asp-validation-for="Nome" class="text-danger"></span>
+
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label asp-for="RG" class="form-label"><strong>RG:</strong></label>
+                    <input asp-for="RG" type="text" class="form-control" id="rg">
+                    <span asp-validation-for="RG" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-2">
+                    <label asp-for="DataExpedicao" class="form-label"><strong>Data Expedição:</strong></label>
+                <input asp-for="DataExpedicao" type="date" asp-format="{0:dd/MM/yyyy}" class="datepicker form-control">
+                    <span asp-validation-for="DataExpedicao" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-7">
+                    <label asp-for="OrGaoExpedicao" class="form-label"><strong>Orgao Espedição:</strong></label>
+                <select asp-for="OrGaoExpedicao" asp-items="new SelectList(ViewBag.OrgaoExpedicao)" class="form-control"></select>
+                <span asp-validation-for="OrGaoExpedicao" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-1">
+                    <label asp-for="UF" class="form-label"><strong>UF:</strong></label>
+                    <select asp-for="UF" asp-items="new SelectList(ViewBag.UfsSelect)" class="form-control"></select>
+                    <span asp-validation-for="UF" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label asp-for="DataNascimento" class="form-label"><strong>Data de Nascimento:</strong></label>
+                <input asp-for="DataNascimento" type="date" asp-format="{0:dd/MM/yyyy}" class="datepicker form-control">
+                    <span asp-validation-for="DataExpedicao" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-2">
+                    <label asp-for="Sexo" class="form-label"><strong>Sexo:</strong></label>
+                    <select asp-for="Sexo" asp-items="new SelectList(ViewBag.SexoSelect)" class="form-control"></select>
+                    <span asp-validation-for="Sexo" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-2">
+                   <label asp-for="EstadoCivil" class="form-label"><strong>Estado Civil:</strong></label>
+                   <select asp-for="EstadoCivil" asp-items="new SelectList(ViewBag.EstadoCivilSelect)" class="form-control"></select>
+                   <span asp-validation-for="EstadoCivil" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+        <h2 style="color:blue">Endereço</h2>
+        <br />
+        <div class="container">
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label asp-for="Endereco.Cep" class="form-label"><strong>CEP:</strong></label>
+                    <input asp-for="Endereco.Cep" type="text" class="form-control" id="cep">
+                    <span asp-validation-for="Endereco.Cep" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-6">
+                    <label asp-for="Endereco.Logradouro" class="form-label"><strong>Rua:</strong></label>
+                    <input asp-for="Endereco.Logradouro" type="text" class="form-control">
+                    <span asp-validation-for="Endereco.Logradouro" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-2">
+                    <label asp-for="Endereco.Numero" class="form-label"><strong>Numero:</strong></label>
+                    <input asp-for="Endereco.Numero" type="text" class="form-control" id="numero">
+                    <span asp-validation-for="Endereco.Numero" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-2">
+                    <label asp-for="Endereco.Complemento" class="form-label"><strong>Complemento:</strong></label>
+                    <input asp-for="Endereco.Complemento" type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-5">
+                    <label asp-for="Endereco.Bairro" class="form-label"><strong>Bairro:</strong></label>
+                    <input asp-for="Endereco.Bairro" type="text" class="form-control">
+                    <span asp-validation-for="Endereco.Bairro" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-6">
+                    <label asp-for="Endereco.Cidade" class="form-label"><strong>Cidade:</strong></label>
+                     <input asp-for="Endereco.Cidade" type="text" class="form-control">
+                    <span asp-validation-for="Endereco.Cidade" class="text-danger"></span>
+
+                </div>
+                <div class="form-group col-md-1">
+                    <label asp-for="Endereco.UF" class="form-label"><strong>UF:</strong></label>
+                     <select asp-for="Endereco.UF" asp-items="new SelectList(ViewBag.UfsSelect)" class="form-control"></select>
+                    <span asp-validation-for="Endereco.UF" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="text-center panel-body">
+            <button type="submit" class="btn btn-success">Salvar Usuario</button>
+        </div>
+    </form>
+    <br />
+<form asp-action="AddUsuario" method="get">
+        <div class="text-center panel-body">
+            <button type="submit" class="btn btn-primary" align="right">Limpar Formulario</button>
+        </div>
+    </form>
+<a asp-action="Index" class="btn btn-warning">Voltar</a>
+@section Scripts {
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://rawgit.com/RobinHerbots/Inputmask/5.x/dist/jquery.inputmask.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#cpf").inputmask("mask", { "mask": "999.999.999-99" }, { reverse: true });
+            $("#cep").inputmask("mask", { "mask": "99999-999" });
+            $("#rg").inputmask("mask", { "mask": "99.999.999-9" });
+
+
+        });
+    </script>
+}
+

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HI6q8JzkahANh+7g2Wus2gSR4kUCo6WTE9UUQw1pjsSidSfzQ1U+H2sFh70+ch8ejKQH8UasiKA33TaoAd6aOQ==",
+  "dgSpecHash": "9SL96y0FaNSDZMSa1RRFG3XcpkSoTjoncqzr8U7MoycKmi0IT5t8nDWnWBEElOYnlBRKyxcFw1SGdb5t2wcxBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Web\\API.Sistema.Web.csproj",
+  "projectFilePath": "C:\\Users\\Henrique\\Desktop\\Rodandoteste\\teste\\Sistema-MVC-WebAPI\\API.Sistema.Web\\API.Sistema.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Henrique\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Henrique\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EgYpNfUhe/ZQ3PVBSuWPTFG6kvsoiMp5l7/1i/OTJE33dsiKinfVGvp2oFWvTRkmuFAP2bu2udJiZUWrx+m3CA==",
+  "dgSpecHash": "dI0kisTYwBLiMMOhQ/+hSven6hMJ5XegRy2lolgmKXNfLBQsiA3KyAF7GHhAgWJ2sg77dnc2QTqM+0ZNNKGM8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Domain\\API.Sistema.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Henrique\\Desktop\\Rodandoteste\\teste\\Sistema-MVC-WebAPI\\API.Sistema.Domain\\API.Sistema.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Henrique\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\Henrique\\.nuget\\packages\\mediatr\\6.0.0\\mediatr.6.0.0.nupkg.sha512"

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Infra.CrossCutting.Services\\API.Sistema.Infra.CrossCutting.Services.csproj",
+      "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\Rodandoteste\\teste\\Sistema-MVC-WebAPI\\API.Sistema.Infra.CrossCutting.Services\\API.Sistema.Infra.CrossCutting.Services.csproj",
       "projectName": "API.Sistema.Infra.CrossCutting.Services",
-      "projectPath": "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Infra.CrossCutting.Services\\API.Sistema.Infra.CrossCutting.Services.csproj",
+      "projectPath": "C:\\Users\\Henrique\\Desktop\\Rodandoteste\\teste\\Sistema-MVC-WebAPI\\API.Sistema.Infra.CrossCutting.Services\\API.Sistema.Infra.CrossCutting.Services.csproj",
       "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Infra.CrossCutting.Services\\obj\\",
+      "outputPath": "C:\\Users\\Henrique\\Desktop\\Rodandoteste\\teste\\Sistema-MVC-WebAPI\\API.Sistema.Infra.CrossCutting.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

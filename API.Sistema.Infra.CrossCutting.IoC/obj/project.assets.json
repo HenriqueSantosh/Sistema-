@@ -6073,11 +6073,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Infra.CrossCutting.IoC\\API.Sistema.Infra.CrossCutting.IoC.csproj",
+      "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\Rodandoteste\\teste\\Sistema-MVC-WebAPI\\API.Sistema.Infra.CrossCutting.IoC\\API.Sistema.Infra.CrossCutting.IoC.csproj",
       "projectName": "API.Sistema.Infra.CrossCutting.IoC",
-      "projectPath": "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Infra.CrossCutting.IoC\\API.Sistema.Infra.CrossCutting.IoC.csproj",
+      "projectPath": "C:\\Users\\Henrique\\Desktop\\Rodandoteste\\teste\\Sistema-MVC-WebAPI\\API.Sistema.Infra.CrossCutting.IoC\\API.Sistema.Infra.CrossCutting.IoC.csproj",
       "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Infra.CrossCutting.IoC\\obj\\",
+      "outputPath": "C:\\Users\\Henrique\\Desktop\\Rodandoteste\\teste\\Sistema-MVC-WebAPI\\API.Sistema.Infra.CrossCutting.IoC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6098,17 +6098,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Application\\API.Sistema.Application.csproj": {
-              "projectPath": "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Application\\API.Sistema.Application.csproj"
+            "C:\\Users\\Henrique\\Desktop\\Rodandoteste\\teste\\Sistema-MVC-WebAPI\\API.Sistema.Application\\API.Sistema.Application.csproj": {
+              "projectPath": "C:\\Users\\Henrique\\Desktop\\Rodandoteste\\teste\\Sistema-MVC-WebAPI\\API.Sistema.Application\\API.Sistema.Application.csproj"
             },
-            "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Domain.Core\\API.Sistema.Domain.Core.csproj": {
-              "projectPath": "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Domain.Core\\API.Sistema.Domain.Core.csproj"
+            "C:\\Users\\Henrique\\Desktop\\Rodandoteste\\teste\\Sistema-MVC-WebAPI\\API.Sistema.Domain.Core\\API.Sistema.Domain.Core.csproj": {
+              "projectPath": "C:\\Users\\Henrique\\Desktop\\Rodandoteste\\teste\\Sistema-MVC-WebAPI\\API.Sistema.Domain.Core\\API.Sistema.Domain.Core.csproj"
             },
-            "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Infra.CrossCutting.Bus\\API.Sistema.Infra.CrossCutting.Bus.csproj": {
-              "projectPath": "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Infra.CrossCutting.Bus\\API.Sistema.Infra.CrossCutting.Bus.csproj"
+            "C:\\Users\\Henrique\\Desktop\\Rodandoteste\\teste\\Sistema-MVC-WebAPI\\API.Sistema.Infra.CrossCutting.Bus\\API.Sistema.Infra.CrossCutting.Bus.csproj": {
+              "projectPath": "C:\\Users\\Henrique\\Desktop\\Rodandoteste\\teste\\Sistema-MVC-WebAPI\\API.Sistema.Infra.CrossCutting.Bus\\API.Sistema.Infra.CrossCutting.Bus.csproj"
             },
-            "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Infra.CrossCutting.Data\\API.Sistema.Infra.CrossCutting.Data.csproj": {
-              "projectPath": "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Infra.CrossCutting.Data\\API.Sistema.Infra.CrossCutting.Data.csproj"
+            "C:\\Users\\Henrique\\Desktop\\Rodandoteste\\teste\\Sistema-MVC-WebAPI\\API.Sistema.Infra.CrossCutting.Data\\API.Sistema.Infra.CrossCutting.Data.csproj": {
+              "projectPath": "C:\\Users\\Henrique\\Desktop\\Rodandoteste\\teste\\Sistema-MVC-WebAPI\\API.Sistema.Infra.CrossCutting.Data\\API.Sistema.Infra.CrossCutting.Data.csproj"
             }
           }
         }

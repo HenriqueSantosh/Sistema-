@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "21p++jhTbYuO04NR3Yyls4GHpKVYHNL5lLSppi/FWXfc5PYVSEokz3mXVoSzjKGDD9v8RGLhDxFV40QpzHxfug==",
+  "dgSpecHash": "qNo0B0ae3BF/nUg1IicWY6KgjPDTk17Ohf6Ni2ZIcO648dyykpr+cOAIJvL8d+JnSKp11P+jMZ0dsCwWNA5wgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Application\\API.Sistema.Application.csproj",
+  "projectFilePath": "C:\\Users\\Henrique\\Desktop\\Rodandoteste\\teste\\Sistema-MVC-WebAPI\\API.Sistema.Application\\API.Sistema.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Henrique\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Henrique\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",

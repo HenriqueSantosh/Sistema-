@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9+mpiljSXHc0T0rTf+IuCRGZREJnJeo/mNosxmwa0AuASFm3guFT11xBiz+zREa0bAyiStfWw3kDGYX9RUQ52Q==",
+  "dgSpecHash": "L2yHUBmDNVvGm12zjoAM/JQF3fZIKKLv0iDMav5uI7b5+/JhrNa2gdUFaNkjedht3Jr8EYQ7vZha3EB77QINsg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Infra.CrossCutting.Data\\API.Sistema.Infra.CrossCutting.Data.csproj",
+  "projectFilePath": "C:\\Users\\Henrique\\Desktop\\Rodandoteste\\teste\\Sistema-MVC-WebAPI\\API.Sistema.Infra.CrossCutting.Data\\API.Sistema.Infra.CrossCutting.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Henrique\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\Henrique\\.nuget\\packages\\mediatr\\6.0.0\\mediatr.6.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q6YP4K988lxuipxlT2gtqAT9DwUPfWbTcZU9S+aXo+8VJxQ6XlqSzOXMgLM+gZVUGe9BPiaV7hm+FG9Sf++XGw==",
+  "dgSpecHash": "mWKFkdOmjC5KXRX0Zb4f2ODBFZtZje+frkkkgLbOLE1mXU9o3f3ss/EcM0IqVEek8Qeiuap9L9v+/ib0yABiUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Site\\API.Sistema.Site.csproj",
+  "projectFilePath": "C:\\Users\\Henrique\\Desktop\\Rodandoteste\\teste\\Sistema-MVC-WebAPI\\API.Sistema.Site\\API.Sistema.Site.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Henrique\\.nuget\\packages\\jquery.inputmask\\5.0.8\\jquery.inputmask.5.0.8.nupkg.sha512",
     "C:\\Users\\Henrique\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

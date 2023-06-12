@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WMUE2Kqpn/yjoiZ64UVLBg4x5bR+4xIVUAy++RUGtWmobcZ7nXnGbE/Jh9bKGxpXnHBrfyS0mWqHVmvSehzWPA==",
+  "dgSpecHash": "Jt2aQwPhxz33Wxoa55c7A9nBCXibOkTPZ0trLOBd4LY6oMWNLh32W0CbTeEpdiAR9a9OxAIjq61zQT4lHJlP0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Henrique\\Desktop\\TesteGTi\\API.Sistema\\API.Sistema.Infra.CrossCutting.Services\\API.Sistema.Infra.CrossCutting.Services.csproj",
+  "projectFilePath": "C:\\Users\\Henrique\\Desktop\\Rodandoteste\\teste\\Sistema-MVC-WebAPI\\API.Sistema.Infra.CrossCutting.Services\\API.Sistema.Infra.CrossCutting.Services.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

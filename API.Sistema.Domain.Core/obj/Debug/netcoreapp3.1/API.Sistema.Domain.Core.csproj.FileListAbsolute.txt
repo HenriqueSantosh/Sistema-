@@ -8,13 +8,3 @@ C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Domain.Core\obj\Debug
 C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Domain.Core\obj\Debug\netcoreapp3.1\API.Sistema.Domain.Core.csproj.CoreCompileInputs.cache
 C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Domain.Core\obj\Debug\netcoreapp3.1\API.Sistema.Domain.Core.dll
 C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Domain.Core\obj\Debug\netcoreapp3.1\API.Sistema.Domain.Core.pdb
-C:\Users\Henrique\Desktop\Rodandoteste\teste\Sistema-MVC-WebAPI\API.Sistema.Domain.Core\bin\Debug\netcoreapp3.1\API.Sistema.Domain.Core.deps.json
-C:\Users\Henrique\Desktop\Rodandoteste\teste\Sistema-MVC-WebAPI\API.Sistema.Domain.Core\bin\Debug\netcoreapp3.1\API.Sistema.Domain.Core.dll
-C:\Users\Henrique\Desktop\Rodandoteste\teste\Sistema-MVC-WebAPI\API.Sistema.Domain.Core\bin\Debug\netcoreapp3.1\API.Sistema.Domain.Core.pdb
-C:\Users\Henrique\Desktop\Rodandoteste\teste\Sistema-MVC-WebAPI\API.Sistema.Domain.Core\obj\Debug\netcoreapp3.1\API.Sistema.Domain.Core.csproj.AssemblyReference.cache
-C:\Users\Henrique\Desktop\Rodandoteste\teste\Sistema-MVC-WebAPI\API.Sistema.Domain.Core\obj\Debug\netcoreapp3.1\API.Sistema.Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Henrique\Desktop\Rodandoteste\teste\Sistema-MVC-WebAPI\API.Sistema.Domain.Core\obj\Debug\netcoreapp3.1\API.Sistema.Domain.Core.AssemblyInfoInputs.cache
-C:\Users\Henrique\Desktop\Rodandoteste\teste\Sistema-MVC-WebAPI\API.Sistema.Domain.Core\obj\Debug\netcoreapp3.1\API.Sistema.Domain.Core.AssemblyInfo.cs
-C:\Users\Henrique\Desktop\Rodandoteste\teste\Sistema-MVC-WebAPI\API.Sistema.Domain.Core\obj\Debug\netcoreapp3.1\API.Sistema.Domain.Core.csproj.CoreCompileInputs.cache
-C:\Users\Henrique\Desktop\Rodandoteste\teste\Sistema-MVC-WebAPI\API.Sistema.Domain.Core\obj\Debug\netcoreapp3.1\API.Sistema.Domain.Core.dll
-C:\Users\Henrique\Desktop\Rodandoteste\teste\Sistema-MVC-WebAPI\API.Sistema.Domain.Core\obj\Debug\netcoreapp3.1\API.Sistema.Domain.Core.pdb

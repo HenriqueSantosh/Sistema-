@@ -8,13 +8,3 @@ C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Infra.CrossCutting.Se
 C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Infra.CrossCutting.Services\obj\Debug\netcoreapp3.1\API.Sistema.Infra.CrossCutting.Services.csproj.CoreCompileInputs.cache
 C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Infra.CrossCutting.Services\obj\Debug\netcoreapp3.1\API.Sistema.Infra.CrossCutting.Services.dll
 C:\Users\Henrique\Desktop\TesteGTi\API.Sistema\API.Sistema.Infra.CrossCutting.Services\obj\Debug\netcoreapp3.1\API.Sistema.Infra.CrossCutting.Services.pdb
-C:\Users\Henrique\Desktop\Rodandoteste\teste\Sistema-MVC-WebAPI\API.Sistema.Infra.CrossCutting.Services\bin\Debug\netcoreapp3.1\API.Sistema.Infra.CrossCutting.Services.deps.json
-C:\Users\Henrique\Desktop\Rodandoteste\teste\Sistema-MVC-WebAPI\API.Sistema.Infra.CrossCutting.Services\bin\Debug\netcoreapp3.1\API.Sistema.Infra.CrossCutting.Services.dll
-C:\Users\Henrique\Desktop\Rodandoteste\teste\Sistema-MVC-WebAPI\API.Sistema.Infra.CrossCutting.Services\bin\Debug\netcoreapp3.1\API.Sistema.Infra.CrossCutting.Services.pdb
-C:\Users\Henrique\Desktop\Rodandoteste\teste\Sistema-MVC-WebAPI\API.Sistema.Infra.CrossCutting.Services\obj\Debug\netcoreapp3.1\API.Sistema.Infra.CrossCutting.Services.csproj.AssemblyReference.cache
-C:\Users\Henrique\Desktop\Rodandoteste\teste\Sistema-MVC-WebAPI\API.Sistema.Infra.CrossCutting.Services\obj\Debug\netcoreapp3.1\API.Sistema.Infra.CrossCutting.Services.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Henrique\Desktop\Rodandoteste\teste\Sistema-MVC-WebAPI\API.Sistema.Infra.CrossCutting.Services\obj\Debug\netcoreapp3.1\API.Sistema.Infra.CrossCutting.Services.AssemblyInfoInputs.cache
-C:\Users\Henrique\Desktop\Rodandoteste\teste\Sistema-MVC-WebAPI\API.Sistema.Infra.CrossCutting.Services\obj\Debug\netcoreapp3.1\API.Sistema.Infra.CrossCutting.Services.AssemblyInfo.cs
-C:\Users\Henrique\Desktop\Rodandoteste\teste\Sistema-MVC-WebAPI\API.Sistema.Infra.CrossCutting.Services\obj\Debug\netcoreapp3.1\API.Sistema.Infra.CrossCutting.Services.csproj.CoreCompileInputs.cache
-C:\Users\Henrique\Desktop\Rodandoteste\teste\Sistema-MVC-WebAPI\API.Sistema.Infra.CrossCutting.Services\obj\Debug\netcoreapp3.1\API.Sistema.Infra.CrossCutting.Services.dll
-C:\Users\Henrique\Desktop\Rodandoteste\teste\Sistema-MVC-WebAPI\API.Sistema.Infra.CrossCutting.Services\obj\Debug\netcoreapp3.1\API.Sistema.Infra.CrossCutting.Services.pdb

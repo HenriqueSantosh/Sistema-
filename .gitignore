@@ -287,3 +287,16 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+\# file types<br>
+*.cache<br>
+*.dtbcache.v2<br>
+*.dll<br>
+*.pdb<br>
+*.suo<br>
+.suo<br>
+*.testlog<br>
+*.user<br>
+
+\# directories<br>
+**/Release
